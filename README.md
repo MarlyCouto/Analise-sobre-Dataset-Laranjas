@@ -1,4 +1,4 @@
-## 🍊 Análise de Dados: Qualidade das Laranjas
+## 🍊 ANÁLISE EXPLORATÓRIA DE DADOS AGRÍCOLAS – PREVISÃO E QUALIDADE DE PRODUÇÃO
 
 Este projeto foi desenvolvido em equipe durante um Bootcamp do Instituto Atlantico com o objetivo de explorar os fatores que influenciam a qualidade das laranjas avaliadas.
 A análise cobre desde estatísticas descritivas até correlações multivariadas, utilizando Python e Bibliotecas.
