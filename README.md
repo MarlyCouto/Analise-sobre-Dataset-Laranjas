@@ -1,61 +1,233 @@
-## 🍊 ANÁLISE EXPLORATÓRIA DE DADOS AGRÍCOLAS – PREVISÃO E QUALIDADE DE PRODUÇÃO
+# 🍊 ANÁLISE EXPLORATÓRIA DE DADOS AGRÍCOLAS – PREVISÃO E QUALIDADE DE PRODUÇÃO
 
-Este projeto foi desenvolvido em equipe durante um Bootcamp do Instituto Atlantico com o objetivo de explorar os fatores que influenciam a qualidade das laranjas avaliadas.
-A análise cobre desde estatísticas descritivas até correlações multivariadas, utilizando Python e Bibliotecas.
----
-# Equipe
+## 📋 Sobre o Projeto
 
- - Conjunto de dados: `orange_quality` (Laranja Mecânica)
- - Alunos:
-   - Vanessa Fermino dos Santos Cavalcante
-   - Ana Marly do Couto da Silva
-   - Romeu Róseo
-   - José Abílio
----
+Este projeto apresenta uma **Análise Exploratória de Dados (EDA)** realizada sobre um dataset de qualidade de laranjas, com o objetivo de identificar quais características físicas, químicas e visuais influenciam a qualidade final da fruta.
 
-## 🎯 Objetivo
-
-Investigar quais atributos físicos e químicos estão mais relacionados à qualidade da fruta, com foco em:
-
-- Doçura (Brix)
-- Tempo de colheita
-- Tamanho e peso
-- Acidez (pH)
-- Textura (maciez)
+A análise foi desenvolvida como parte do processo de aprendizagem em Ciência e Análise de Dados, utilizando técnicas de estatística descritiva, visualização de dados e investigação de relações entre variáveis do Bootcamp de ciência de dados do Instituto Atlântico Avanti em parceria com a Softex.
 
 ---
 
-## 🧪 Metodologia
+## 🎯 Objetivos
 
-Foram aplicadas diversas técnicas de análise:
-
-- ✅ Análise Univariada
-- ✅ Análise Bivariada (qualitativa e quantitativa)
-- ✅ Análise Mista
-- ✅ Correlação de Pearson
-- ✅ Análise Multivariada
-- ✅ Visualização de dados com gráficos interativos
+* Compreender a distribuição das variáveis do dataset.
+* Identificar fatores associados à qualidade das laranjas.
+* Explorar correlações entre características físicas e químicas.
+* Gerar insights que possam apoiar decisões na produção agrícola.
+* Aplicar técnicas de visualização de dados para comunicação dos resultados.
 
 ---
 
-## 📊 Principais Insights
+## 📊 Dataset
 
-- **Brix (doçura)** tem a maior correlação positiva com a qualidade (≈ 0.63)
-- **Tempo de colheita** tem correlação negativa (≈ -0.47), indicando que colher tarde reduz a qualidade
-- Frutas **menores e mais leves** tendem a ser percebidas como de melhor qualidade
-- O **equilíbrio entre acidez e textura** é essencial para uma boa avaliação sensorial
+O conjunto de dados contém informações relacionadas às características das laranjas, incluindo:
+
+| Variável    | Descrição           |
+| ----------- | ------------------- |
+| Size        | Tamanho da fruta    |
+| Weight      | Peso da fruta       |
+| Brix        | Índice de doçura    |
+| pH          | Nível de acidez     |
+| Softness    | Maciez              |
+| HarvestTime | Tempo de colheita   |
+| Ripeness    | Grau de maturação   |
+| Color       | Cor da fruta        |
+| Variety     | Variedade           |
+| Blemishes   | Presença de manchas |
+| Quality     | Nota de qualidade   |
 
 ---
 
-## 💡 Hipóteses Exploradas
+## 🛠️ Tecnologias Utilizadas
 
-- O tempo de colheita afeta a qualidade via Brix: após certo ponto, o Brix não aumenta e a qualidade decai
-- Frutas muito ácidas ou muito macias são menos apreciadas pelos consumidores
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+* Google Colab
 
 ---
 
-## ✅ Recomendações
+## 🔍 Etapas da Análise
 
-- Colher as laranjas entre 10 e 18 dias após o ponto inicial
-- Priorizar o aumento do Brix sem comprometer textura e acidez
-- Evitar foco exclusivo em tamanho ou peso
+### 1. Carregamento e Exploração Inicial
+
+* Importação dos dados
+* Verificação da estrutura do dataset
+* Identificação de tipos de variáveis
+* Estatísticas descritivas
+
+### 2. Limpeza dos Dados
+
+* Verificação de valores ausentes
+* Verificação de duplicidades
+* Análise de consistência dos dados
+
+### 3. Análise Univariada
+
+Avaliação individual das variáveis:
+
+* Distribuição do tamanho
+* Distribuição do peso
+* Distribuição do Brix
+* Distribuição da qualidade
+* Distribuição das categorias
+
+### 4. Análise Bivariada
+
+Investigação das relações entre variáveis:
+
+* Brix × Qualidade
+* Peso × Qualidade
+* Tamanho × Qualidade
+* Tempo de Colheita × Qualidade
+* pH × Qualidade
+
+### 5. Análise Multivariada
+
+* Heatmap de correlações
+* Relações entre variáveis numéricas
+* Identificação dos fatores mais relevantes para a qualidade
+
+---
+
+# 💡 Principais Insights
+
+### 🍯 A doçura é o principal indicador de qualidade
+
+O índice Brix apresentou forte relação positiva com a qualidade das frutas.
+
+**Conclusão:** quanto maior a concentração de açúcar, maior tende a ser a qualidade percebida.
+
+---
+
+### ⏱️ Existe uma janela ideal de colheita
+
+Os melhores resultados foram observados em frutas colhidas aproximadamente entre 10 e 18 dias.
+
+**Conclusão:** colheitas tardias tendem a reduzir a qualidade.
+
+---
+
+### ⚖️ Maior não significa melhor
+
+Peso e tamanho não demonstraram ser os melhores preditores de qualidade.
+
+**Conclusão:** frutas menores podem apresentar qualidade superior.
+
+---
+
+### 🍊 A aparência influencia a percepção de qualidade
+
+Frutas sem manchas apresentaram avaliações superiores.
+
+**Conclusão:** aspectos visuais continuam sendo importantes indicadores para classificação.
+
+---
+
+### 🧪 Acidez e textura precisam estar equilibradas
+
+Valores extremos de pH e maciez tendem a impactar negativamente a qualidade.
+
+**Conclusão:** o equilíbrio dessas características favorece melhores avaliações.
+
+---
+
+# 📈 Exemplos de Visualizações
+
+## Distribuição das Variáveis
+
+*(Inserir imagens dos histogramas)*
+
+```markdown
+![Distribuição](images/distribuicao.png)
+```
+
+## Correlação entre Variáveis
+
+*(Inserir heatmap)*
+
+```markdown
+![Heatmap](images/heatmap.png)
+```
+
+## Relação entre Brix e Qualidade
+
+*(Inserir gráfico de dispersão)*
+
+```markdown
+![Brix x Qualidade](images/brix_qualidade.png)
+```
+
+---
+
+# 🤖 Modelagem Preditiva
+
+Além da análise exploratória, foram avaliados modelos de Machine Learning para prever a qualidade das laranjas.
+
+Modelos testados:
+
+* Regressão Logística
+* K-Nearest Neighbors (KNN)
+* Árvore de Decisão
+* Random Forest
+* Support Vector Classifier (SVC)
+
+Objetivo:
+
+Identificar qual algoritmo apresenta melhor desempenho na classificação da qualidade das frutas.
+
+---
+
+# 📑 Apresentação dos Resultados
+
+Os principais insights deste projeto também estão disponíveis em formato de apresentação.
+
+📎 **Slides do Projeto**
+
+```markdown
+[Visualizar Apresentação](COLE_AQUI_O_LINK_DOS_SLIDES)
+```
+---
+
+# 📂 Estrutura do Projeto
+
+```text
+📦 Analise-sobre-Dataset-Laranjas
+│
+├── imagens/
+├── notebooks/
+│   └── Orange_Quality_Analysis.ipynb
+│
+├── slides/
+│   └── apresentacao_dados.pdf
+│
+└── README.md
+```
+
+---
+
+# 👥 Equipe
+
+* Ana Marly Couto
+* José Abílio
+* Romeu Róseo
+* Vanessa Fermino
+
+---
+
+# 🚀 Próximos Passos
+
+* Construção de modelos preditivos mais robustos
+* Otimização de hiperparâmetros
+* Dashboard interativo em Power BI
+* Deploy de modelo de classificação
+* Comparação entre diferentes variedades de laranja
+
+---
+
+⭐ Se este projeto foi útil para você, considere deixar uma estrela no repositório.
+
+---
