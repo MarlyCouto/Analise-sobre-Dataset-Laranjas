@@ -10,12 +10,7 @@ Original file is located at
 
 # Análise Exploratória de Dados
  - Conjunto de dados: `orange_quality` (Laranja Mecânica)
- - Alunos:
-   - Vanessa Fermino dos Santos Cavalcante
-   - Ana Marly do Couto da Silva
-   - Romeu Róseo
-   - José Abílio
----
+ ---
 
 ## Preparação
  - Carregamento de bibliotecas
