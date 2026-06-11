@@ -136,43 +136,41 @@ Valores extremos de pH e maciez tendem a impactar negativamente a qualidade.
 ---
 # 📈 Principais Visualizações e Insights
 
-## 1. Distribuição das Variáveis Quantitativas
+<h2>1. Distribuição das Variáveis Quantitativas</h2>
 
-![Variáveis Quantitativas](images/variaveis quantitativas.png)
+<p align="center">
+  <img src="images/variaveis_quantitativas.png" width="800">
+</p>
 
-A análise das variáveis quantitativas mostrou a distribuição das características físicas e químicas das laranjas, permitindo identificar padrões de concentração e dispersão dos dados.
+<h2>2. Distribuição das Variáveis Qualitativas</h2>
 
----
+<p align="center">
+  <img src="images/variaveis_qualitativas.png" width="800">
+</p>
 
-## 2. Distribuição das Variáveis Qualitativas
+<h2>3. Matriz de Correlação das Variáveis Quantitativas</h2>
 
-![Variáveis Qualitativas](images/variaveis qualitativas.png)
+<p align="center">
+  <img src="images/matriz_correlacao_quantitativa.png" width="800">
+</p>
 
-As variáveis categóricas permitiram observar a frequência das diferentes classificações de cor, variedade e presença de manchas.
-  
-## 3. Matriz de Correlação das Variáveis Quantitativas
+<h2>4. Relação entre Brix e Qualidade</h2>
 
-![Matriz de Correlação](images/matriz de correlação quantitativa geral.png)
+<p align="center">
+  <img src="images/media_brix_por_qualidade.png" width="800">
+</p>
 
-**Insight:** O índice de doçura (Brix) apresentou uma das relações mais fortes com a qualidade das frutas, indicando que o sabor é um fator relevante para a classificação final.
+<h2>5. Peso e Qualidade</h2>
 
-## 4. Relação entre Brix e Qualidade
+<p align="center">
+  <img src="images/distribuicao_peso_por_qualidade.png" width="800">
+</p>
 
-![Média de Doçura por Nota](images/média de doçura(brix) por nota de qualidade.png)
+<h2>6. Qualidade por Cor</h2>
 
-**Insight:** À medida que a qualidade aumenta, observa-se uma tendência de aumento nos níveis médios de Brix.
-
-## 5. Peso e Qualidade
-
-![Distribuição do Peso por Nota](images/Distribuição do peso por nota de qualidade.png)
-
-**Insight:** Frutas maiores ou mais pesadas não necessariamente apresentam melhor qualidade.
-
-## 6. Qualidade por Cor
-
-![Distribuição da Qualidade por Cor](images/Distribuição da qualidade por cor da laranja.png)
-
-**Insight:** Algumas colorações apresentaram maior concentração de frutas classificadas com notas superiores.
+<p align="center">
+  <img src="images/qualidade_por_cor.png" width="800">
+</p>
 
 ---
 
