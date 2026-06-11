@@ -157,7 +157,7 @@ Valores extremos de pH e maciez tendem a impactar negativamente a qualidade.
 <h2>4. Relação entre Brix e Qualidade</h2>
 
 <p align="center">
-  <img src="images/media_brix_por_qualidade.png" width="800">
+  <img src="images/media_brix_por_nota.png" width="800">
 </p>
 
 <h2>5. Peso e Qualidade</h2>
@@ -169,7 +169,7 @@ Valores extremos de pH e maciez tendem a impactar negativamente a qualidade.
 <h2>6. Qualidade por Cor</h2>
 
 <p align="center">
-  <img src="images/qualidade_por_cor.png" width="800">
+  <img src="images/distribuicao_qualidade_cor.png" width="800">
 </p>
 
 ---
