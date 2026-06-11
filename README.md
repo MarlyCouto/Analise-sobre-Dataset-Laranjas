@@ -151,7 +151,7 @@ Valores extremos de pH e maciez tendem a impactar negativamente a qualidade.
 <h2>3. Matriz de Correlação das Variáveis Quantitativas</h2>
 
 <p align="center">
-  <img src="images/matriz_correlacao_quantitativa.png" width="800">
+  <img src="images/matriz_correlacao_quantitativa (1).png" width="800">
 </p>
 
 <h2>4. Relação entre Brix e Qualidade</h2>
