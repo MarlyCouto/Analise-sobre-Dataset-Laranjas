@@ -134,32 +134,45 @@ Valores extremos de pH e maciez tendem a impactar negativamente a qualidade.
 **Conclusão:** o equilíbrio dessas características favorece melhores avaliações.
 
 ---
+# 📈 Principais Visualizações e Insights
 
-# 📈 Exemplos de Visualizações
+## 1. Distribuição das Variáveis Quantitativas
 
-## Distribuição das Variáveis
+![Variáveis Quantitativas](images/variaveis quantitativas.png)
 
-*(Inserir imagens dos histogramas)*
+A análise das variáveis quantitativas mostrou a distribuição das características físicas e químicas das laranjas, permitindo identificar padrões de concentração e dispersão dos dados.
 
-```markdown
-![Distribuição](images/distribuicao.png)
-```
+---
 
-## Correlação entre Variáveis
+## 2. Distribuição das Variáveis Qualitativas
 
-*(Inserir heatmap)*
+![Variáveis Qualitativas](images/variaveis qualitativas.png)
 
-```markdown
-![Heatmap](images/heatmap.png)
-```
+As variáveis categóricas permitiram observar a frequência das diferentes classificações de cor, variedade e presença de manchas.
+  
+## 3. Matriz de Correlação das Variáveis Quantitativas
 
-## Relação entre Brix e Qualidade
+![Matriz de Correlação](images/matriz de correlação quantitativa geral.png)
 
-*(Inserir gráfico de dispersão)*
+**Insight:** O índice de doçura (Brix) apresentou uma das relações mais fortes com a qualidade das frutas, indicando que o sabor é um fator relevante para a classificação final.
 
-```markdown
-![Brix x Qualidade](images/brix_qualidade.png)
-```
+## 4. Relação entre Brix e Qualidade
+
+![Média de Doçura por Nota](images/média de doçura(brix) por nota de qualidade.png)
+
+**Insight:** À medida que a qualidade aumenta, observa-se uma tendência de aumento nos níveis médios de Brix.
+
+## 5. Peso e Qualidade
+
+![Distribuição do Peso por Nota](images/Distribuição do peso por nota de qualidade.png)
+
+**Insight:** Frutas maiores ou mais pesadas não necessariamente apresentam melhor qualidade.
+
+## 6. Qualidade por Cor
+
+![Distribuição da Qualidade por Cor](images/Distribuição da qualidade por cor da laranja.png)
+
+**Insight:** Algumas colorações apresentaram maior concentração de frutas classificadas com notas superiores.
 
 ---
 
