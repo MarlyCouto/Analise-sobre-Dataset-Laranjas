@@ -169,7 +169,7 @@ Valores extremos de pH e maciez tendem a impactar negativamente a qualidade.
 <h2>6. Qualidade por Cor</h2>
 
 <p align="center">
-  <img src="images/distribuicao_qualidade_cor.png" width="800">
+  <img src="images/distribuicao_qualidade_cor.png.png" width="800">
 </p>
 
 ---
