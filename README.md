@@ -188,7 +188,7 @@ Os principais insights deste projeto também estão disponíveis em formato de a
 📎 **Slides do Projeto**
 
 ```markdown
-[Visualizar Apresentação](COLE_AQUI_O_LINK_DOS_SLIDES)
+[Visualizar Slides](slides/apresentacao_dados.pdf)
 ```
 ---
 
