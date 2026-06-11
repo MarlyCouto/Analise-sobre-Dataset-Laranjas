@@ -187,9 +187,8 @@ Os principais insights deste projeto também estão disponíveis em formato de a
 
 📎 **Slides do Projeto**
 
-```markdown
-[Visualizar Slides](slides/apresentacao_dados.pdf)
-```
+[Visualizar Apresentação em PDF](./slides/apresentacao_dados.pdf)
+
 ---
 
 # 📂 Estrutura do Projeto
